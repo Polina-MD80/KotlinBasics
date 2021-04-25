@@ -10,11 +10,7 @@ fun main() {
     println(employeeThree == employeeTwo)
     println(employeeThree === employeeThree)
     println(employeeThree === employeeTwo)
-    val hello1 = "hello"
-    val hello2 = "hello"
-    println("---")
-    println(hello1 == hello2)
-    println(hello1 === hello2)
+
     val s1 = Shape("circle")
     val s2 = Shape("circle")
     println(s1 == s2) //false
