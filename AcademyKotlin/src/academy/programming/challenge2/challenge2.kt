@@ -20,7 +20,9 @@ fun main() {
     println(x1)
     x?.let { println(it.toLowerCase(). replace("am", "am not"))}
 
-
+    val myNonNullVariable: Int? = null
+    myNonNullVariable!!.toDouble()
+    myNonNullVariable.toDouble()
 
 
 }
