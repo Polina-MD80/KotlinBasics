@@ -12,4 +12,15 @@ fun main() {
         print(int)
     }
 
+    val charArray = charArrayOf('a', 'b','c')
+
+    val x: String? = "I AM IN UPPERCASE"
+    val  x1: String = x?.toLowerCase()?: "I quit here"
+    println()
+    println(x1)
+    x?.let { println(it.toLowerCase(). replace("am", "am not"))}
+
+
+
+
 }
