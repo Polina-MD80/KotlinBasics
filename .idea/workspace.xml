@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23e12338-acf4-4c19-b376-7c7be63de415" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TransFormFromJava/src/HelloWorld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/TransFormFromJava/src/HelloWorld.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccessModifiers/src/academy/learnprogramming/accessmodifiers/AccessModifiers.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
