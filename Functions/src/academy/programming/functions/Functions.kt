@@ -44,7 +44,7 @@ fun String.upperFirstAndLastAsIllusion(): String {
 
 // the default return type is Unit.
 // expression body
-fun labelMultiply(operand1: Int, operand2: Int, label: String = "The label is ") =
+inline fun labelMultiply(operand1: Int, operand2: Int, label: String = "The label is ") =
     "$label ${operand1 * operand2}" // the return type is string and there is no need to assign it
 
 fun printColors(vararg cars: Car) {
