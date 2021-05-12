@@ -25,6 +25,8 @@ fun main() {
     val list = listOf(1, 2, 3)
 
     foo(*list.toIntArray())
+
+    print(whatever())
 }
 
 // the default return type is Unit.
@@ -37,7 +39,6 @@ fun printColors(vararg cars: Car) {
         println(car.colour)
     }
 
-
 }
 
 class Employee(val firstName: String) {
@@ -47,4 +48,5 @@ class Employee(val firstName: String) {
 data class Car(val colour: String, val model: String, val year: Int) {
 
 }
+fun whatever()= 3 * 4
 
