@@ -1,5 +1,7 @@
 package academy.programming.functions
 
+import java.util.*
+
 // block body
 fun main() {
     println(labelMultiply(3, 4, "The result is "))
@@ -26,7 +28,18 @@ fun main() {
 
     foo(*list.toIntArray())
 
-    print(whatever())
+    println(whatever())
+
+    println(Utils().upperFirstAndLast("this is it"))
+    val s = "alabala"
+    println(s.upperFirstAndLastAsIllusion())
+
+}
+// this is the way to associate the function with the String class (extension)
+fun String.upperFirstAndLastAsIllusion(): String {
+    val firstToUpper = this.substring(0, 1).uppercase(Locale.getDefault()) + this.substring(1)
+    return firstToUpper.substring(0, firstToUpper.length - 1) + firstToUpper.substring(this.length - 1)
+        .uppercase(Locale.getDefault())
 }
 
 // the default return type is Unit.
@@ -48,5 +61,6 @@ class Employee(val firstName: String) {
 data class Car(val colour: String, val model: String, val year: Int) {
 
 }
-fun whatever()= 3 * 4
+
+fun whatever() = 3 * 4
 
